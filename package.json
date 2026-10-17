@@ -1,0 +1,23 @@
+{
+  "name": "canopy-community-chat",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild realtime-client.js --bundle --format=esm --target=es2022 --outfile=assets/realtime-client.js",
+    "start": "npm run build && node server.js",
+    "dev": "npm start"
+  },
+  "dependencies": {
+    "mediasoup": "^3.19.0",
+    "mediasoup-client": "^3.18.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true,
+    "mediasoup@3.30.0": true
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+assets/realtime-client.js
+yapper.sqlite
+yapper.sqlite-shm
+yapper.sqlite-wal
+*.log
+Canopy-App/
+Canopy-App.zip
+Canopy-Render-Deploy.zip
